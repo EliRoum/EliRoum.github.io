@@ -1,0 +1,94 @@
+:root{
+    --bleu_ciel: rgb(115, 186, 215);
+  }
+
+
+
+
+body {
+  background-image: url("./bg2.jpg");
+  font-family: 'Helvetica', sans-serif;
+}
+
+header nav ul{
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 500px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header nav ul li{
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+
+nav a {
+  color:green;
+}
+nav a:hover{
+  color: var(--bleu_ciel);
+}
+
+nav li:hover{
+  border: 2px solid var(--bleu_ciel);
+}
+
+
+main {
+  margin-left: 15%;
+  margin-right: 17%;
+  margin-top: 7%;
+  border: 5px;
+  border-color: green;
+  display: flex;
+  gap: 25px;
+}
+main h1 {
+    font-size: 24px;
+}
+
+main article{
+  display: block;
+  padding: 5px;
+  border-top: 5px;
+}
+
+main article p{
+  line-height: 1.5em
+}
+
+main article div {
+  border-radius: 35px;
+  padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+footer p {
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+
+footer p a {
+    color: green;
+}
+
+footer p:hover {
+    border: 2px solid var(--bleu_ciel);
+}
+footer p a:hover {
+    color: var(--bleu_ciel);
+}

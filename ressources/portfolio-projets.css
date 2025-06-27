@@ -1,0 +1,78 @@
+  :root{
+    --bleu_ciel: rgb(115, 186, 215);
+  }
+
+
+main {
+  display: flex;
+  margin-left: 15%;
+  gap: 25px;
+  border: 5px;
+  border-color: green;
+
+}
+h1{
+  font-size: xx-large;
+}
+
+body {
+  background-image: url("./bg2.jpg");
+  font-family: 'Helvetica', sans-serif;
+}
+
+header nav ul{
+  padding-left: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 500px;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header nav ul li{
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid green;
+}
+
+nav a {
+  color:green;
+}
+nav a:hover{
+  color: var(--bleu_ciel);
+}
+
+nav ul li:hover{
+  border: 2px solid var(--bleu_ciel);
+}
+
+main article{
+  padding: 5px;
+  border-top: 5px;
+  width: 920px;
+  display: flex;
+  flex-direction: column;
+}
+
+main article div {
+  border-radius: 35px;
+  border:2px solid green;
+  padding: 25px;
+  margin: 10px;
+  width: fit-content;
+}
+
+main div a{
+  color: green;
+}
+
+main div:hover{
+  border-color: var(--bleu_ciel);
+}
+main div a:hover{
+  color: var(--bleu_ciel);
+}
