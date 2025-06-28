@@ -34,11 +34,11 @@ nav a {
   color:green;
 }
 nav a:hover{
-  color: var(--bleu_ciel);
+  color: darkgreen;
 }
 
 nav li:hover{
-  border: 2px solid var(--bleu_ciel);
+  border: 2px solid darkgreen;
 }
 
 
